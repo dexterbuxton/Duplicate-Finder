@@ -1,10 +1,14 @@
 # macOS
 .DS_Store
 
-# Xcode
+# Xcode — per-user settings (window state, breakpoints, personal schemes)
 xcuserdata/
-DerivedData/
+
+# Xcode — build output (only lands in the project if DerivedData is set to a relative location)
 build/
-*.xcuserstate
-*.xcscmblueprint
-*.xccheckout
+DerivedData/
+
+# Exported builds and debug symbols
+*.ipa
+*.dSYM
+*.dSYM.zip
