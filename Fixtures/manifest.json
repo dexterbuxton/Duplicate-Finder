@@ -1,0 +1,264 @@
+{
+  "seed": 20261108,
+  "summary": {
+    "originals": 50,
+    "duplicates": 30,
+    "duplicate_groups": 18,
+    "total_files_in_groups": 48
+  },
+  "groups": [
+    {
+      "sha256": "527b97b193e8b21a543dad577827a6a906373880010c67640726dec8df6a43d1",
+      "size": 197,
+      "original": "Control/Primary/Config/juniper-juniper.js",
+      "copies": [
+        {
+          "path": "Control/Backup/2025/juniper-juniper-final.js",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "d118ba950e97fe4018aecde38842b636b7e455eb45231c9dae2f927dfbb36ad2",
+      "size": 331,
+      "original": "Control/Primary/Notes/copper-drift.json",
+      "copies": [
+        {
+          "path": "Control/Downloads/kestrel.json",
+          "method": "rewrite"
+        }
+      ]
+    },
+    {
+      "sha256": "1a3d815cb0f04a94a902e99c0cd0454b3cd0393597a1e75b228a656e624296b8",
+      "size": 281,
+      "original": "Control/Primary/Notes/mosaic-zephyr.yml",
+      "copies": [
+        {
+          "path": "Control/Downloads/cedar.yml",
+          "method": "rewrite"
+        }
+      ]
+    },
+    {
+      "sha256": "46b463517758853beaf3d62ab896e3cd47160af1f0bcf99ebd426b80380fcda6",
+      "size": 348,
+      "original": "Control/Primary/Notes/onyx-quill.json",
+      "copies": [
+        {
+          "path": "Control/Archive/Old/Nested/onyx-quill (1).json",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Archive/Old/onyx-quill (1).json",
+          "method": "rewrite"
+        }
+      ]
+    },
+    {
+      "sha256": "f16ff426aa9c51bea0bd06284464461f1acc8616ca95ebb97a6b880d6248e704",
+      "size": 1001,
+      "original": "Control/Primary/Notes/pixel-nebula.md",
+      "copies": [
+        {
+          "path": "Control/Archive/Old/Nested/pixel-nebula.md",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "726d250e7798e0e4d9b91cdfc00d3ed8c2c8f3edaca9e94b4aeb0499700d2019",
+      "size": 272,
+      "original": "Control/Primary/Notes/xenon-onyx.json",
+      "copies": [
+        {
+          "path": "Control/Archive/Old/xenon-onyx.json",
+          "method": "rewrite"
+        },
+        {
+          "path": "Control/Backup/2025/falcon.json",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "1c230c89a33b31e0c485a2a1012d1f7f3dc5b0a127cbb9b344dc3043e08964db",
+      "size": 2220,
+      "original": "Control/Primary/Projects/Scripts/drift-amber.txt",
+      "copies": [
+        {
+          "path": "Control/Archive/Old/Nested/drift-amber (1).txt",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "31a8a7292c7bf2d0126d412960c71eea521ba0cbdee487051b6a45b007666197",
+      "size": 290,
+      "original": "Control/Primary/Projects/Scripts/vector-buffer.yml",
+      "copies": [
+        {
+          "path": "Control/Downloads/vector-buffer.yml",
+          "method": "rewrite"
+        }
+      ]
+    },
+    {
+      "sha256": "127112fa0d93e557de3635b108a0235d8c4538f6187a2a90bded009b29b6d0cc",
+      "size": 232,
+      "original": "Control/Primary/Projects/Web/nebula-glacier.csv",
+      "copies": [
+        {
+          "path": "Control/Downloads/willow.txt",
+          "method": "rewrite"
+        },
+        {
+          "path": "Control/Backup/nebula-glacier-final.csv",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "6dcdde4c65806e7a0d9cbf077bb035f0d797179ab764cf802eab4acecd8b416a",
+      "size": 232,
+      "original": "Control/Primary/Projects/Web/uplift-amber.py",
+      "copies": [
+        {
+          "path": "Control/Primary/Projects/Web/uplift-amber copy.py",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Backup/2025/uplift-amber-final.py",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "f8629c7da4784d151c2cff3adb6a7ee30d4eb39992bece17dd58cb307e83b1ac",
+      "size": 244,
+      "original": "Control/Primary/Projects/Web/valley-hollow.swift",
+      "copies": [
+        {
+          "path": "Control/Backup/2025/valley-hollow-final.swift",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "ab14cca51fc8228c1a577f9ef171cfcd29873cfd7f14edf03e47da0db13cbca9",
+      "size": 170,
+      "original": "Control/Primary/amber-ember.yml",
+      "copies": [
+        {
+          "path": "Control/Backup/amber-ember (1).yml",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Archive/Old/amber-ember.yml",
+          "method": "rewrite"
+        },
+        {
+          "path": "Control/Archive/Old/Nested/willow.yml",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "e460da02003af7198a87e6883b18d4e12677099607286a35ad4cf1107403f698",
+      "size": 211,
+      "original": "Control/Primary/cobalt-buffer.csv",
+      "copies": [
+        {
+          "path": "Control/Downloads/cedar.txt",
+          "method": "rewrite"
+        },
+        {
+          "path": "Control/Archive/Old/Nested/cobalt-buffer (1).csv",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Backup/cobalt-buffer-final.csv",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "3310db43938a50bee86b0d21cfc91bd5abce8efa62b90a4987dda878f5d42f01",
+      "size": 438,
+      "original": "Control/Primary/iris-buffer.csv",
+      "copies": [
+        {
+          "path": "Control/Backup/iris-buffer.csv",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Downloads/iris-buffer-final.csv",
+          "method": "rewrite"
+        }
+      ]
+    },
+    {
+      "sha256": "6c3a0eed6be0f2ca3da264939d60acbb6a41d93f453e1bce0e36dcc64fe13b6b",
+      "size": 258,
+      "original": "Control/Primary/island-onyx.py",
+      "copies": [
+        {
+          "path": "Control/Downloads/island-onyx.py",
+          "method": "rewrite"
+        },
+        {
+          "path": "Control/Backup/island-onyx-final.py",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "5089ced663d5c5f553f51ddc605276fea60d5afbd2d6f203b972dde0892a5eed",
+      "size": 854,
+      "original": "Control/Primary/lantern-tundra.md",
+      "copies": [
+        {
+          "path": "Control/Primary/lantern-tundra copy.md",
+          "method": "cp"
+        }
+      ]
+    },
+    {
+      "sha256": "e1bbced455640496cabd0ef4602be97ef8db484072cf195687c484c9d441a4ed",
+      "size": 220,
+      "original": "Control/Primary/ocean-wren.py",
+      "copies": [
+        {
+          "path": "Control/Primary/ocean-wren copy.py",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Backup/2025/ocean-wren.py",
+          "method": "cp"
+        },
+        {
+          "path": "Control/Archive/Old/ocean-wren.py",
+          "method": "rewrite"
+        }
+      ]
+    },
+    {
+      "sha256": "a520cfe020c8ceb4bd8ea3d19e05db53624682630b314b4b80a809b7fb695ee7",
+      "size": 695,
+      "original": "Control/Primary/willow-harbor.txt",
+      "copies": [
+        {
+          "path": "Control/Archive/Old/willow-harbor-final.txt",
+          "method": "rewrite"
+        }
+      ]
+    }
+  ],
+  "edge_cases": [
+    "near-dup-a/b.txt: same size, differ by one byte near the end",
+    "same-size-1/2.txt: identical size, different content",
+    "large-same-prefix-1/2.txt: ~200 KB, same size and first 200 KB, different tail (defeats prefix-only hashing)",
+    "empty-1.txt / empty-2.md: zero-byte files, should be skipped",
+    "symlink-to-original: symlink to Control/Primary/prairie-stone.txt, should be skipped"
+  ]
+}

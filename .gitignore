@@ -12,3 +12,10 @@ DerivedData/
 *.ipa
 *.dSYM
 *.dSYM.zip
+
+# Generated test fixtures (rebuild with: python3 Scripts/make_fixtures.py)
+Fixtures/Control/
+
+# Swift Package Manager
+.build/
+.swiftpm/

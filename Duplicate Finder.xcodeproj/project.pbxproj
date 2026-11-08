@@ -6,8 +6,23 @@
 	objectVersion = 90;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0000000000000000000002A1 /* DuplicateCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0000000000000000000002A2 /* DuplicateCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0000000000000000000003D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000000000000000000000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000000000000000100000000;
+			remoteInfo = "Duplicate Finder";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* Duplicate Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duplicate Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000000003A0 /* Duplicate FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duplicate FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +31,21 @@
 			path = "Duplicate Finder";
 			sourceTree = "<group>";
 		};
+		0000000000000000000003A1 /* Duplicate FinderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Duplicate FinderTests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		000000000000000130000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				0000000000000000000002A1 /* DuplicateCore in Frameworks */,
+			);
+		};
+		0000000000000000000003C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
 			);
@@ -31,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000010 /* Duplicate Finder */,
+				0000000000000000000003A1 /* Duplicate FinderTests */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				000000000000000000000120 /* Duplicate Finder.app */,
+				0000000000000000000003A0 /* Duplicate FinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +88,33 @@
 				000000000000000000000010 /* Duplicate Finder */,
 			);
 			name = "Duplicate Finder";
-			productName = MyApp;
+			packageProductDependencies = (
+				0000000000000000000002A2 /* DuplicateCore */,
+			);
+			productName = "Duplicate Finder";
 			productReference = 000000000000000000000120 /* Duplicate Finder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0000000000000000000003B0 /* Duplicate FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0000000000000000000003B1 /* Build configuration list for PBXNativeTarget "Duplicate FinderTests" */;
+			buildPhases = (
+				0000000000000000000003C0 /* Sources */,
+				0000000000000000000003C1 /* Frameworks */,
+				0000000000000000000003C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0000000000000000000003D1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0000000000000000000003A1 /* Duplicate FinderTests */,
+			);
+			name = "Duplicate FinderTests";
+			productName = "Duplicate FinderTests";
+			productReference = 0000000000000000000003A0 /* Duplicate FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -77,6 +129,10 @@
 					000000000000000100000000 = {
 						CreatedOnToolsVersion = 26.3;
 					};
+					0000000000000000000003B0 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 000000000000000100000000;
+					};
 				};
 			};
 			buildConfigurationList = 000000000000000010000000 /* Build configuration list for PBXProject "Duplicate Finder" */;
@@ -88,18 +144,27 @@
 			);
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0000000000000000000002A3 /* XCLocalSwiftPackageReference "Packages/DuplicateCore" */,
+			);
 			preferredProjectObjectVersion = 90;
 			productRefGroup = 000000000000000000000020 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				000000000000000100000000 /* Duplicate Finder */,
+				0000000000000000000003B0 /* Duplicate FinderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		000000000000000140000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		0000000000000000000003C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
 			);
@@ -112,7 +177,20 @@
 			files = (
 			);
 		};
+		0000000000000000000003C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0000000000000000000003D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000000000000000100000000 /* Duplicate Finder */;
+			targetProxy = 0000000000000000000003D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		000000000000000011000000 /* Debug configuration for PBXProject "Duplicate Finder" */ = {
@@ -255,7 +333,7 @@
 				DEVELOPMENT_TEAM = TPM778U7ZV;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Duplicate Finder";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -296,7 +374,7 @@
 				DEVELOPMENT_TEAM = TPM778U7ZV;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Duplicate Finder";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -329,6 +407,50 @@
 			};
 			name = Release;
 		};
+		0000000000000000000003B2 /* Debug configuration for PBXNativeTarget "Duplicate FinderTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPM778U7ZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexterbuxton.DuplicateFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duplicate Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duplicate Finder";
+			};
+			name = Debug;
+		};
+		0000000000000000000003B3 /* Release configuration for PBXNativeTarget "Duplicate FinderTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TPM778U7ZV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexterbuxton.DuplicateFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duplicate Finder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duplicate Finder";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -348,7 +470,29 @@
 			);
 			defaultConfigurationName = Release;
 		};
+		0000000000000000000003B1 /* Build configuration list for PBXNativeTarget "Duplicate FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0000000000000000000003B2 /* Debug configuration for PBXNativeTarget "Duplicate FinderTests" */,
+				0000000000000000000003B3 /* Release configuration for PBXNativeTarget "Duplicate FinderTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		0000000000000000000002A3 /* XCLocalSwiftPackageReference "Packages/DuplicateCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DuplicateCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0000000000000000000002A2 /* DuplicateCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DuplicateCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 000000000000000000000000 /* Project object */;
 }
